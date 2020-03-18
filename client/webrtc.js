@@ -36,6 +36,7 @@ function pageReady() {
 function getUserMediaSuccess(stream) {
   localStream = stream;
   localVideo.srcObject = stream;
+  // remoteVideo.srcObject = stream;
 }
 
 function start(isCaller) {
