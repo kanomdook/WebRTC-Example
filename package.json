@@ -2,7 +2,11 @@
   "name": "WebRTC-Example",
   "version": "1.0.0",
   "description": "An 'as simple as it gets' WebRTC example.",
-  "main": "index.js",
+  "main": "server/server.js",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
